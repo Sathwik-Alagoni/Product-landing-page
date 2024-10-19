@@ -1,0 +1,171 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    padding-bottom: 40px;
+  
+}
+
+nav *{
+    float: left;
+}
+
+nav {
+    padding: 10px 0 0 10px;
+}
+
+.nav-item{
+    margin-right: 80px;
+    font-size: 16px;
+}
+
+.nav-item:hover{
+    color:#fe5e35;
+    cursor: pointer;
+}
+
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-items{
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+.left-section{
+    width: 50%;
+    float:left;
+    padding-left: 20px;
+}
+
+.left-section h3{
+    font-size: 3cap;
+    color:#0a0a0a;
+}
+
+.left-section h1{
+    font-size: 5cap;
+    font-weight:12000;
+    margin: 0;
+}
+
+
+.sub-headlines{
+    transform: scale(0.8);
+}
+.sub-headline{
+    font-size: 18px;
+}
+
+
+.sub-headline::before{
+    
+    padding: 10px 15px;
+    content: "+";
+    background-color: #fe5e35;
+    border-radius: 50%;
+    color: white;
+}
+
+.text {
+    color: #444f5c;
+    font-size: 14px;
+}
+
+.action-btns{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.action-btn {
+    background-color: #fe5e35;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+
+.right-section{
+   
+    float: right
+}
+
+
+.headphone-div{
+    position: relative;
+  
+}
+
+.discount{
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    transform: scale(0.8);
+   
+
+}
+
+.discount-content{
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    color: white;
+}
+
+.discount-content h4{
+    font-weight: bolder;
+
+}
+
+.discount-content h1{
+    margin-top: -20px;
+   
+}
+
+.dots {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;   
+    display: inline-block; 
+    margin-right: 10px;   
+    margin-bottom: 20px;
+
+}
+
+.yellow-dot {
+    background-color: yellow;
+
+}
+
+.tomato-dot {
+    background-color: tomato;
+}
+
+.black-dot {
+    background-color: black;
+}
+
+.right-section .action-btn{
+    margin-left: 39%;
+    
+}
+
+.headphones{
+    height: 500px;
+}
